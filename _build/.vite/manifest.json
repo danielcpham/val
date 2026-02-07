@@ -1,10 +1,6 @@
 {
-  "_client-D4NWzmLr.css": {
-    "file": "assets/client-D4NWzmLr.css",
-    "src": "_client-D4NWzmLr.css"
-  },
-  "_client-XVzrMiKq.js": {
-    "file": "assets/client-XVzrMiKq.js",
+  "_client-CthuaiSE.js": {
+    "file": "assets/client-CthuaiSE.js",
     "name": "client",
     "dynamicImports": [
       "src/components/ConfettiLayer.tsx"
@@ -13,6 +9,10 @@
       "assets/client-D4NWzmLr.css"
     ]
   },
+  "_client-D4NWzmLr.css": {
+    "file": "assets/client-D4NWzmLr.css",
+    "src": "_client-D4NWzmLr.css"
+  },
   "node_modules/canvas-confetti/dist/confetti.module.mjs": {
     "file": "assets/confetti.module-5PKC4vm3.js",
     "name": "confetti.module",
@@ -20,24 +20,24 @@
     "isDynamicEntry": true
   },
   "src/components/ConfettiLayer.tsx": {
-    "file": "assets/ConfettiLayer-d5wWqDYl.js",
+    "file": "assets/ConfettiLayer-C97mKPfS.js",
     "name": "ConfettiLayer",
     "src": "src/components/ConfettiLayer.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_client-XVzrMiKq.js"
+      "_client-CthuaiSE.js"
     ],
     "dynamicImports": [
       "node_modules/canvas-confetti/dist/confetti.module.mjs"
     ]
   },
   "virtual:$vinxi/handler/client": {
-    "file": "assets/client-ChZSbIvP.js",
+    "file": "assets/client-D_kHu4-u.js",
     "name": "client",
     "src": "virtual:$vinxi/handler/client",
     "isEntry": true,
     "imports": [
-      "_client-XVzrMiKq.js"
+      "_client-CthuaiSE.js"
     ]
   }
 }
