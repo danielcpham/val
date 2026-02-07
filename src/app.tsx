@@ -10,10 +10,11 @@ import ChoiceZone from "./components/ChoiceZone";
 const ConfettiLayer = clientOnly(() => import("./components/ConfettiLayer"));
 
 export default function App() {
-
   const [accepted, setAccepted] = createSignal(false);
 
-  const handleYes = () =>{ setAccepted(true);};
+  const handleYes = () => {
+    setAccepted(true);
+  };
 
   return (
     <div>
@@ -26,11 +27,7 @@ export default function App() {
 
         <ChoiceZone hidden={accepted()} onYes={handleYes} />
 
-        {!accepted() && (
-          <div class="hint">
-            “No” seems a bit shy 😈
-          </div>)}
-  
+        {!accepted() && <div class="hint">“No” seems a bit shy 😈</div>}
 
         {accepted() && (
           <div class="mt-6 animate-[pop_.35s_ease]">
@@ -42,7 +39,6 @@ export default function App() {
             />
           </div>
         )}
-
       </main>
     </div>
   );
