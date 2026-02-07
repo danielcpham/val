@@ -97,7 +97,7 @@ export default function ChoiceZone(props: ChoiceZoneProps) {
   const [yesScale, setYesScale] = createSignal(1);
 
   const growYes = () => {
-    setYesScale((prev) => Math.min(prev + 0.2, 4));
+    setYesScale((prev) => Math.min(prev + 0.4, 4));
   };
 
   return (
